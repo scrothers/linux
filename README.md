@@ -17,6 +17,9 @@ The official project issue tracker for Layerworx Linux will be the GitHub issue 
 ### Mailing Lists
 We currently have no list, but are accepting corporate sponsorship for hosting services, build servers and mailing list hosting. 
 
+### Contact Us
+To contact the project, please open an issue with the "contact" tag assigned to it, all correspondance will be public. For issues that need to be private, please file an issue under the "contact" tag requesting a private communication.
+
 ## Special Thanks
 Special thanks to the [Linux From Scratch](http://linuxfromscratch.org) project for providing the resources needed to kickstart this project.
 
