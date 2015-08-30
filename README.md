@@ -7,6 +7,9 @@ This project's skeleton is built using [Linux From Scratch](http://linuxfromscra
 ## How to Contribute:
 Fork and send pull requests. I'm accepting ONLY patches to our existing spec files at this time and no new spec files currently until we modernize the existing package library to current standards.
 
+## Build Host
+Intial build host was completed on a Red Hat Enterprise Linux 7.1 virtual machine hosted in Amazon Web Services on August 30, 2015 with full patches. All future builds will be built against Layerworx packages moving forward.
+
 ## Project Links
 ### Project Wiki
 The official project wiki for Layerworx Linux can be found at GitHub currently under the [official repository](https://github.com/layerworx/linux/wiki). The wiki is sparse currently, but, will eventually be the trove for all the information on the project as the project progresses.
