@@ -5,7 +5,7 @@ Layerworx Linux is an effort to create a unified container format, container hos
 This project's skeleton is built using [Linux From Scratch](http://linuxfromscratch.org) as it's base. It's difficult to call this a fork, because the end product will not be a variant of Linux From Scratch, but a new product entirely. But, because of it's roots in LFS, this project will recognize LFS as the base component for our builds until a time that it may be replaced, which is unlikely.
 
 ## How to Contribute:
-Fork and send pull requests. I'm accepting ONLY patches to our existing spec files at this time and no new spec files currently until we modernize the existing package library to current standards.
+Fork and send pull requests. I'm accepting ONLY patches to our existing spec files at this time and no new spec files currently until we modernize the existing package library to current standards. However, before contributing, please take some time to review [CONTRIBUTING.md](https://github.com/layerworx/linux/blob/master/CONTRIBUTING.md) to learn about the guidelines.
 
 ## Build Host
 Intial build host was completed on a Red Hat Enterprise Linux 7.1 virtual machine hosted in Amazon Web Services on August 30, 2015 with full patches. All future builds will be built against Layerworx packages moving forward.
