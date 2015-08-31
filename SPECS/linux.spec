@@ -79,9 +79,7 @@ The Linux package which includes all of the Kernel documentation
 
 %build
 cp %{SOURCE1} .config
-make mrproper
-make LC=ALL= oldconfig
-make VERBOSE=1 %{?_smp_mflags}
+make clean && make %{?_smp_mflags}
 
 %install
 # Create directories in the BUILDROOT
