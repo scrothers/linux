@@ -1,6 +1,6 @@
 #!/bin/bash
 
-DIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
+DIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && cd .. && pwd )
 
 # Test for spectool on the system
 /usr/bin/which spectool > /dev/null 2> /dev/null
