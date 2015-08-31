@@ -8,8 +8,9 @@ Group:          System Environment/Kernel
 Vendor:         Layerworx
 Distribution:	  Layerworx/Linux
 Source0:        http://www.kernel.org/pub/linux/kernel/v3.x/%{name}-%{version}.tar.xz
+Source1:        linux-config-%{version}
 BuildRequires:  kmod, patch, bash, sh-utils, tar bzip2, xz, findutils, gzip, m4 gawk
-BuildRequires:  diffutils, gcc, binutils, inetutils, bc
+BuildRequires:  diffutils, gcc, binutils, bc
 Provides:       %{name} = %{version}
 Obsoletes:      %{name}
 
@@ -77,9 +78,8 @@ The Linux package which includes all of the Kernel documentation
 %setup -q
 
 %build
-#cp %{SOURCE1} .config
+cp %{SOURCE1} .config
 make mrproper
-cp %{_topdir}/config .config
 make LC=ALL= oldconfig
 make VERBOSE=1 %{?_smp_mflags}
 
